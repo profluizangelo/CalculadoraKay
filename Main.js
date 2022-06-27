@@ -79,7 +79,7 @@ $(document).ready(function() {
             subOutput.append(newOperator);
         }
     });
-
+ 
     $('#resultButton').click(function() {
         if (mainOutput.html() === '' || ('+-*/').indexOf(mainOutput.html()) != -1) return ;
         num2.val(mainOutput.html());
