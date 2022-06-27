@@ -27,7 +27,7 @@ $(document).ready(function() {
         if (('+-*/').indexOf(mainOutput.html()) != -1) {
             mainOutput.html('');
         }
-
+ 
         if ($(this).val() == '.' && (mainOutput.html()).indexOf('.') != -1) return ;
         if ($(this).val() !== '.') {
             if (mainOutput.html() == '0' || subOutput.html() == 'Reach Digit Limit') {
